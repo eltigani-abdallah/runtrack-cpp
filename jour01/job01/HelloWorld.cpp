@@ -1,8 +1,9 @@
 #include <iostream>
+#include <string>
 
 int main(){
-char greeting[] = "Hello World";
-std::cout << greeting << std::endl;
+    std::string greeting = "Hello World";
+    std::cout << greeting << std::endl;
 
 return 0;
 }
